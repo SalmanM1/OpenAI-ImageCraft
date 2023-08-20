@@ -1,0 +1,25 @@
+{
+  "name": "openai-image-creator",
+  "version": "1.0.1",
+  "description": "A tool to create images using OpenAI's models",
+  "author": "John Doe",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index",
+    "develop": "nodemon index"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "keywords": [
+    "openai",
+    "image",
+    "generator"
+  ]
+}
